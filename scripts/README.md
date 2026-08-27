@@ -215,7 +215,7 @@ A limit of detection (LoD), defined as the lowest concentration of the standard 
 
 </details>
 
-## [`07_wrangle-sequence-data.R`](./07_wrangle-sequence-data.R) 
+## [`07_wrangle_sequence-data.R`](./07_wrangle_sequence-data.R) 
 
 This script generates a phyloseq object using the `rainbow-bridge` outfiles and external metadata in preparation for downstream analyses.
 
