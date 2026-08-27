@@ -23,7 +23,7 @@ git clone git@github.com:cbirdlab/2026_labrador_transport-compliant-edna-preserv
 Use the following to cite this repository: 
 
 
-Labrador, K. L., Garcia, E., Magnuson, S. F., Selwyn, J. D., & Bird, C. E. (2026). Effects of transport-compliant preservatives on the recovery of environmental DNA (eDNA) from seawater (Version edna-preservation) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.20347419
+Labrador, K. L., Garcia, E., Magnuson, S. F., Selwyn, J. D., & Bird, C. E. (2026). Effects of transport-compliant preservatives on the recovery of environmental DNA (eDNA) from seawater (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.20347419
 
 ---
 
