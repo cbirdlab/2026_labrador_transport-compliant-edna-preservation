@@ -1,20 +1,18 @@
-# 2026_labrador_preservation-of-edna-from-remote-areas
+# 2026_labrador_transport-compliant-edna-preservation
 
 ## Kevin Labrador
 
 ---
 
 # Introduction
-This is the repository for the manuscript, **Effects of preservatives on the recovery of environmental DNA (eDNA) from seawater: Implications for field sampling in remote areas** (Labrador et al., submitted to *Molecular Ecology Resources*).
+This is the repository for the manuscript, **Effects of transport-compliant preservatives on the recovery of environmental DNA (eDNA) from seawater** (Labrador et al., submitted to *Environmental DNA*).
 
-This repository contains a reproducible R-based analysis pipeline for processing and modeling DNA quantification and amplification data. The workflow integrates data wrangling, visualization, and statistical modeling steps to evaluate the effects of preservation and extraction method on eDNA yield and amplification success. The pipeline is organized into modular scripts that can be executed sequentially, from raw data compilation to model-based inferences.
-
-The URL for the GitHub repository is https://github.com/cbirdlab/2026_labrador_preservation-of-edna-from-remote-areas.
+This repository contains a reproducible R-based analysis pipeline for processing and modeling DNA quantification and amplification data. The workflow integrates data wrangling, visualization, and statistical modeling steps to evaluate the effects of preservation and extraction method on eDNA yield, amplification success, and community composition. The pipeline is organized into modular scripts that can be executed sequentially, from raw data compilation to model-based inferences.
 
 To clone the repository:
 
 ```
-git clone git@github.com:cbirdlab/2026_labrador_preservation-of-edna-from-remote-areas.git
+git clone git@github.com:cbirdlab/2026_labrador_transport-compliant-edna-preservation.git
 ```
 
 ---
