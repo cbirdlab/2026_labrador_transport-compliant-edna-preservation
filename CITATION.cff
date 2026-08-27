@@ -16,8 +16,8 @@ authors:
 - family-names: "Bird"
   given-names: "Christopher E."
   
-title: "Effects of preservatives on the recovery of environmental DNA (eDNA) from seawater: Implications for field sampling in remote areas"
+title: "Effects of transport-compliant preservatives on the recovery of environmental DNA (eDNA) from seawater"
 version: 1.0.0
-doi: 10.5281/zenodo.20332200
-date-released: 2026-05-21
-url: "https://github.com/cbirdlab/2026_labrador_preservation-of-edna-from-remote-areas"
+doi: 10.5281/zenodo.20347419
+date-released: 2026-08-27
+url: "https://github.com/cbirdlab/2026_labrador_transport-compliant-edna-preservation"
