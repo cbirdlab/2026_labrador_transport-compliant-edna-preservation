@@ -226,7 +226,7 @@ This script generates a phyloseq object using the `rainbow-bridge` outfiles and 
 - [`rme_sample-info.xlsx`](../data/rme_sample-info.xlsx) 
 - [`rme_water-params.xlsx`](.../data/rme_water-params.xlsx)
 - [`rme_site-info.xlsx`](../data/rme_site-info.xlsx)
-- [`rme_maynard-metadata.xlsx](../data/rme_maynard-metadata.xlsx)
+- [`rme_maynard-metadata.xlsx`](../data/rme_maynard-metadata.xlsx)
 - [`seq_sample_info.csv`](../data/seq_sample_info.csv)
 - [`zotu_table.csv`](../data/rainbow-bridge/zotu_table.csv) (Output from `rainbow_bridge`)
 - [`lowest_taxonomy_table.csv`](../data/rainbow-bridge/lowest_taxonomy_table.csv) (Output from `rainbow_bridge`)
@@ -235,7 +235,7 @@ This script generates a phyloseq object using the `rainbow-bridge` outfiles and 
 ### Output
 - [`rme_phyloseq.rds`](../data/rme_phyloseq.rds)
 -[`plot_16su-empricial.png`]
-![](../results/plot_pcr-quant-model.png)
+![](../results/plot_16su-empricial.png)
 
 ### Pipeline
 - Reads in `rainbow_bridge` outfiles along with relevant sequence metadata
@@ -244,8 +244,7 @@ This script generates a phyloseq object using the `rainbow-bridge` outfiles and 
 - Generate a phyloseq file with all the metadata
 
 ### Notes
-* Site was relabeld from Okgok (OKG) to Talakhaya (TLK).
-*  
+* Site was relabeld from Okgok (OKG) to Talakhaya (TLK)
 
 </details>
 
@@ -254,7 +253,7 @@ This script generates a phyloseq object using the `rainbow-bridge` outfiles and 
 
 Identify and remove contaminant zOTUs. Perform PCA ordination at various stages of decontamination. 
 
-Decontamination was done using the decontam package [Davis et al., 2018](https://link.springer.com/article/10.1186/s40168-018-0605-2).
+Decontamination was done using the decontam package [(Davis et al., 2018)](https://link.springer.com/article/10.1186/s40168-018-0605-2).
 
 
 <details>
@@ -266,10 +265,10 @@ Decontamination was done using the decontam package [Davis et al., 2018](https:/
 
 ### Output
 - [`rme_phyloseq_decontaminated.rds`](../data/rme_phyloseq_decontaminated.rds)
-- [PERMANOVA and PERMDISP results](../results/permanova_sample_ctrl.txt)
+- [`PERMANOVA and PERMDISP results`](../results/permanova_sample_ctrl.txt)
 - [`plot_ordination_post-decon-no-marine.png`](../results/plot_ordination_post-decon-no-marine.png)
 ![](plot_ordination_post-decon-no-marine.png)
-- [`plot_ordination_post-decon-no-marine.png`](../results/plot_neg_ctrl_ordination_post-decon-no-marine_samples-only.png)
+- [`plot_neg_ctrl_ordination_post-decon-no-marine_samples-only.png`](../results/plot_neg_ctrl_ordination_post-decon-no-marine_samples-only.png)
 ![](../results/plot_neg_ctrl_ordination_post-decon-no-marine_samples-only.png)
 
 ### Pipeline
