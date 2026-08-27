@@ -64,7 +64,7 @@ path_compiled_files <-
   "../data/rme_phyloseq.rds"
 
 path_plot_16su_empirical <- 
-  "../results/plot_16su-empricial.jpg"
+  "../results/plot_16su-empricial.png"
 
 
 

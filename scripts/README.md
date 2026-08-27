@@ -234,7 +234,7 @@ This script generates a phyloseq object using the `rainbow-bridge` outfiles and 
 
 ### Output
 - [`rme_phyloseq.rds`](../data/rme_phyloseq.rds)
--[`plot_16su-empricial.png`]
+- [`plot_16su-empricial.png`](../results/plot_16su-empricial.png)
 ![](../results/plot_16su-empricial.png)
 
 ### Pipeline
@@ -267,7 +267,7 @@ Decontamination was done using the decontam package [(Davis et al., 2018)](https
 - [`rme_phyloseq_decontaminated.rds`](../data/rme_phyloseq_decontaminated.rds)
 - [`PERMANOVA and PERMDISP results`](../results/permanova_sample_ctrl.txt)
 - [`plot_ordination_post-decon-no-marine.png`](../results/plot_ordination_post-decon-no-marine.png)
-![](plot_ordination_post-decon-no-marine.png)
+![](../results/plot_ordination_post-decon-no-marine.png)
 - [`plot_neg_ctrl_ordination_post-decon-no-marine_samples-only.png`](../results/plot_neg_ctrl_ordination_post-decon-no-marine_samples-only.png)
 ![](../results/plot_neg_ctrl_ordination_post-decon-no-marine_samples-only.png)
 
