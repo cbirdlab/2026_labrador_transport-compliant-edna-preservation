@@ -1,0 +1,59 @@
+#https://github.com/mhoban/rainbow_bridge - description of parameters
+
+metadata: /work/birdlab/klabrador/phd_dissertation/kll_chapter3_rota-marine-edna/data/raw_fq/16SU/16SU_metadata.csv #At least two columns with sample IDs in both - name columns "sample", "sample_name"
+barcode: /work/birdlab/klabrador/phd_dissertation/kll_chapter3_rota-marine-edna/data/raw_fq/16SU/16SU_paired_demuxed_barcode.tsv
+sample-map: /work/birdlab/klabrador/phd_dissertation/kll_chapter3_rota-marine-edna/data/raw_fq/16SU/16SU_sample.map
+reads: /work/birdlab/klabrador/phd_dissertation/kll_chapter3_rota-marine-edna/data/raw_fq/16SU
+blast-db: /work/birdlab/databases/midori2_latest/lrRNA/midori2_latest
+taxid-map: /work/birdlab/databases/midori2_latest/lrRNA/taxid_map
+
+demultiplexed-by: index #change to barcode if not demultiplexed
+publish-mode: symlink
+fastqc: true
+paired: true
+r1: R1
+r2: R2
+maxQuality: 45
+
+no-pcr: true
+
+#### PARAMS FOR ZOTU IDENTIFICATION ####
+denoiser: "vsearch"
+min-abundance: 1 	# default = 8; min. no. of sequences to be considered as a ZOTU
+alpha: 2.0 		# default = 2.0; denoising threshold for clustering
+zotu-identity: 0.97 	# default = 0.97; pairwise identitiy used to match raw reads to ZOTUs
+
+lulu: true
+lulu-min-ratio-type: 'min'
+lulu-min-ratio: 1 	# default = 1
+lulu-min-match: 84 	# default = 84; min. threshold of sequence similarity to consider ZOTUs as spurious
+lulu-min-rc: 0.95 	# default = 0.95; the potential daughter must be present in at least `min-rc%` of the samples where the parent is preset; reduce with fewer samples or sequencing depth 
+
+#### PARAMS FOR TAXONOMIC CLASSIFICATION ####
+blast: true
+max-query-results: 1000
+qcov: 50
+percent-identity: 50
+evalue: 0.001
+
+collapse-taxonomy: true
+lca-qcov: 90			# default = 100; minimum query coverage for LCA taxonomy refinement
+lca-pid: 90			# default = 97; minimum percent identity for LCA taxonomy refinement
+lca-diff: 0.75			# default = 1; maximum difference between percent identities where shared taxonomy is retained
+lca-filter-max-qcov: true 	# retain only BLAST records having the highest query coverage 
+dropped: "LCA_dropped"
+lca-taxon-filter: "uncultured|environmental sample|clone|synthetic" # regex to remove unwanted taxa from BLAST
+lca-case-insensitive: true	# ignore case when applying regex to `lca-taxon-filter`
+taxon-priority: lca	# works only with insect (which does not, in this case)
+
+#insect: mlCOIint
+#insect-threshold: 0.8
+#insect-offset: 0
+#insect-min-count: 5
+#insect-ping: 0.98
+
+phyloseq: true
+taxonomy: lca #combined when insect works
+no-tree: true
+
+singularity-cache: /work/birdlab/singularity_cache

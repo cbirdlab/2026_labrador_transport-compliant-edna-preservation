@@ -1,0 +1,2 @@
+maxhits,qcov,pid,eval,lca_qcov,lca_pid,lca_diff,n_zotu_raw,n_hits_blast,nhits_per_rawzotu,n_taxa_blast,n_zotu_lulu,n_zotu_lca,n_zotu_final,n_taxa_final,n_class,n_family,n_genus,n_kingdom,n_order,n_species
+1000,50,50,0.001,90,90,0.75,248191,11270978,45.41251697281529,3601,248140,48846,48343,266,1949,8694,6735,36,2979,27950

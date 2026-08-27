@@ -1,0 +1,81 @@
+dna_extract_tube_id,sample_type,preservative,sample_id,dna_plate_id,normalized_dna_plate_row,normalized_dna_plate_col,locus,pcr_stage1_fwd_primer,fwd_barcode,pcr_stage1_rev_primer,rev_barcode,pcr_stage2_labeled_primer_plate_id,pcr2_labeled_primer_well,index_combo,pool,pcr_quant_ng
+rme_01,sample,no preservative,adu-1123-cs,rme_dna_for_pcr_normalized,A,1,16SU,iTru_A_V16S-UF,GGTAC,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,1A,itru_primer-plate_4_1A,rme,24
+rme_02,sample,no preservative,agt-1123-cs,rme_dna_for_pcr_normalized,B,1,16SU,iTru_B_V16S-UF,cAACAC,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,1B,itru_primer-plate_4_1B,rme,24
+rme_03,sample,no preservative,cga-1123-cs,rme_dna_for_pcr_normalized,C,1,16SU,iTru_C_V16S-UF,atCGGTT,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,1C,itru_primer-plate_4_1C,rme,24
+rme_04,sample,no preservative,cmu-1123-cs,rme_dna_for_pcr_normalized,D,1,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,1D,itru_primer-plate_4_1D,rme,24
+rme_05,sample,no preservative,cvi-1123-cs,rme_dna_for_pcr_normalized,E,1,16SU,iTru_A_V16S-UF,GGTAC,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,1E,itru_primer-plate_4_1E,rme,24
+rme_06,sample,no preservative,hpo-1123-cs,rme_dna_for_pcr_normalized,F,1,16SU,iTru_B_V16S-UF,cAACAC,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,1F,itru_primer-plate_4_1F,rme,24
+rme_07,sample,no preservative,jre-1123-cs,rme_dna_for_pcr_normalized,G,1,16SU,iTru_C_V16S-UF,atCGGTT,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,1G,itru_primer-plate_4_1G,rme,24
+rme_08,sample,no preservative,mch-1123-cs,rme_dna_for_pcr_normalized,H,1,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,1H,itru_primer-plate_4_1H,rme,12.4
+rme_09,sample,no preservative,okg-1123-cs,rme_dna_for_pcr_normalized,A,2,16SU,iTru_A_V16S-UF,GGTAC,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,2A,itru_primer-plate_4_2A,rme,23.6
+rme_10,sample,no preservative,rre-1123-cs,rme_dna_for_pcr_normalized,B,2,16SU,iTru_B_V16S-UF,cAACAC,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,2B,itru_primer-plate_4_2B,rme,24
+rme_11,sample,no preservative,sip-1123-cs,rme_dna_for_pcr_normalized,C,2,16SU,iTru_C_V16S-UF,atCGGTT,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,2C,itru_primer-plate_4_2C,rme,23.8
+PC,control,no preservative,C.tinkeri ,rme_dna_for_pcr_normalized,D,2,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,2D,itru_primer-plate_4_2D,rme,0
+rme_12,sample,no preservative,spo-1123-cs,rme_dna_for_pcr_normalized,E,2,16SU,iTru_A_V16S-UF,GGTAC,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,2E,itru_primer-plate_4_2E,rme,24
+rme_13,sample,no preservative,wha-1123-cs,rme_dna_for_pcr_normalized,F,2,16SU,iTru_B_V16S-UF,cAACAC,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,2F,itru_primer-plate_4_2F,rme,24
+rme_14,control,no preservative,nfc-1123-cs,rme_dna_for_pcr_normalized,G,2,16SU,iTru_C_V16S-UF,atCGGTT,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,2G,itru_primer-plate_4_2G,rme,7
+rme_15,control,no preservative,nec-0124-np,rme_dna_for_pcr_normalized,H,2,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,2H,itru_primer-plate_4_2H,rme,4.1
+rme_16,sample,dess,wha-1123-ds,rme_dna_for_pcr_normalized,A,3,16SU,iTru_A_V16S-UF,GGTAC,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,3A,itru_primer-plate_4_3A,rme,23.2
+rme_17,sample,buffer tl,adu-1123-tl,rme_dna_for_pcr_normalized,B,3,16SU,iTru_B_V16S-UF,cAACAC,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,3B,itru_primer-plate_4_3B,rme,10.4
+rme_18,sample,dess,jre-1123-ds,rme_dna_for_pcr_normalized,C,3,16SU,iTru_C_V16S-UF,atCGGTT,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,3C,itru_primer-plate_4_3C,rme,17.8
+rme_19,sample,dess,adu-1123-ds,rme_dna_for_pcr_normalized,D,3,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,3D,itru_primer-plate_4_3D,rme,18.6
+rme_20,sample,buffer tl,wha-1123-tl,rme_dna_for_pcr_normalized,E,3,16SU,iTru_A_V16S-UF,GGTAC,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,3E,itru_primer-plate_4_3E,rme,10.2
+rme_21,sample,buffer tl,sip-1123-tl,rme_dna_for_pcr_normalized,F,3,16SU,iTru_B_V16S-UF,cAACAC,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,3F,itru_primer-plate_4_3F,rme,16.1
+rme_22,sample,buffer tl,agt-1123-tl,rme_dna_for_pcr_normalized,G,3,16SU,iTru_C_V16S-UF,atCGGTT,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,3G,itru_primer-plate_4_3G,rme,9.5
+rme_23,sample,buffer tl,cvi-1123-tl,rme_dna_for_pcr_normalized,H,3,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,3H,itru_primer-plate_4_3H,rme,9
+rme_24,control,no preservative,nec-0124-np,rme_dna_for_pcr_normalized,A,4,16SU,iTru_A_V16S-UF,GGTAC,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,4A,itru_primer-plate_4_4A,rme,4.5
+rme_25,sample,dess,rre-1123-ds,rme_dna_for_pcr_normalized,B,4,16SU,iTru_B_V16S-UF,cAACAC,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,4B,itru_primer-plate_4_4B,rme,22.3
+rme_26,sample,dess,mch-1123-ds,rme_dna_for_pcr_normalized,C,4,16SU,iTru_C_V16S-UF,atCGGTT,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,4C,itru_primer-plate_4_4C,rme,24
+rme_27,sample,buffer tl,rre-1123-tl,rme_dna_for_pcr_normalized,D,4,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,4D,itru_primer-plate_4_4D,rme,11.3
+PCR-NTC1,control,no preservative,NA,rme_dna_for_pcr_normalized,E,4,16SU,iTru_A_V16S-UF,GGTAC,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,4E,itru_primer-plate_4_4E,rme,2.6
+rme_28,control,dess,nfc-1123-ds,rme_dna_for_pcr_normalized,F,4,16SU,iTru_B_V16S-UF,cAACAC,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,4F,itru_primer-plate_4_4F,rme,2.8
+rme_29,sample,dess,okg-1123-ds,rme_dna_for_pcr_normalized,G,4,16SU,iTru_C_V16S-UF,atCGGTT,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,4G,itru_primer-plate_4_4G,rme,24
+rme_30,sample,dess,hpo-1123-ds,rme_dna_for_pcr_normalized,H,4,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,4H,itru_primer-plate_4_4H,rme,16.3
+rme_31,sample,buffer tl,mch-1123-tl,rme_dna_for_pcr_normalized,A,5,16SU,iTru_A_V16S-UF,GGTAC,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,5A,itru_primer-plate_4_5A,rme,10.2
+rme_32,sample,dess,spo-1123-ds,rme_dna_for_pcr_normalized,B,5,16SU,iTru_B_V16S-UF,cAACAC,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,5B,itru_primer-plate_4_5B,rme,24
+rme_33,sample,buffer tl,spo-1123-tl,rme_dna_for_pcr_normalized,C,5,16SU,iTru_C_V16S-UF,atCGGTT,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,5C,itru_primer-plate_4_5C,rme,14.6
+rme_34,sample,dess,sip-1123-ds,rme_dna_for_pcr_normalized,D,5,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,5D,itru_primer-plate_4_5D,rme,22.8
+rme_35,control,no preservative,nec-0124-np,rme_dna_for_pcr_normalized,E,5,16SU,iTru_A_V16S-UF,GGTAC,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,5E,itru_primer-plate_4_5E,rme,2.8
+rme_36,sample,buffer tl,okg-1123-tl,rme_dna_for_pcr_normalized,F,5,16SU,iTru_B_V16S-UF,cAACAC,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,5F,itru_primer-plate_4_5F,rme,6.4
+rme_37,sample,buffer tl,cmu-1123-tl,rme_dna_for_pcr_normalized,G,5,16SU,iTru_C_V16S-UF,atCGGTT,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,5G,itru_primer-plate_4_5G,rme,11.2
+rme_38,sample,dess,agt-1123-ds,rme_dna_for_pcr_normalized,H,5,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,5H,itru_primer-plate_4_5H,rme,17.7
+rme_39,sample,buffer tl,cga-1123-tl,rme_dna_for_pcr_normalized,A,6,16SU,iTru_A_V16S-UF,GGTAC,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,6A,itru_primer-plate_4_6A,rme,5.5
+rme_40,sample,dess,cmu-1123-ds,rme_dna_for_pcr_normalized,B,6,16SU,iTru_B_V16S-UF,cAACAC,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,6B,itru_primer-plate_4_6B,rme,10.9
+rme_41,sample,dess,cvi-1123-ds,rme_dna_for_pcr_normalized,C,6,16SU,iTru_C_V16S-UF,atCGGTT,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,6C,itru_primer-plate_4_6C,rme,24
+rme_42,control,buffer tl,nfc-1123-tl,rme_dna_for_pcr_normalized,D,6,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,6D,itru_primer-plate_4_6D,rme,4.8
+rme_43,sample,buffer tl,hpo-1123-tl,rme_dna_for_pcr_normalized,E,6,16SU,iTru_A_V16S-UF,GGTAC,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,6E,itru_primer-plate_4_6E,rme,10.6
+rme_44,sample,buffer tl,jre-1123-tl,rme_dna_for_pcr_normalized,F,6,16SU,iTru_B_V16S-UF,cAACAC,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,6F,itru_primer-plate_4_6F,rme,8.3
+rme_45,sample,dess,cga-1123-ds,rme_dna_for_pcr_normalized,G,6,16SU,iTru_C_V16S-UF,atCGGTT,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,6G,itru_primer-plate_4_6G,rme,19.7
+PCR-NTC2,control,no preservative,NA,rme_dna_for_pcr_normalized,H,6,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,6H,itru_primer-plate_4_6H,rme,6.1
+rmep_16,sample,dess,wha-1123-ds,rme_dna_for_pcr_normalized,A,7,16SU,iTru_A_V16S-UF,GGTAC,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,7A,itru_primer-plate_4_7A,rme,3.5
+rmep_17,sample,buffer tl,adu-1123-tl,rme_dna_for_pcr_normalized,B,7,16SU,iTru_B_V16S-UF,cAACAC,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,7B,itru_primer-plate_4_7B,rme,6.1
+rmep_18,sample,dess,jre-1123-ds,rme_dna_for_pcr_normalized,C,7,16SU,iTru_C_V16S-UF,atCGGTT,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,7C,itru_primer-plate_4_7C,rme,3.6
+rmep_19,sample,dess,adu-1123-ds,rme_dna_for_pcr_normalized,D,7,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,7D,itru_primer-plate_4_7D,rme,3.5
+rmep_20,sample,buffer tl,wha-1123-tl,rme_dna_for_pcr_normalized,E,7,16SU,iTru_A_V16S-UF,GGTAC,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,7E,itru_primer-plate_4_7E,rme,4.3
+rmep_21,sample,buffer tl,sip-1123-tl,rme_dna_for_pcr_normalized,F,7,16SU,iTru_B_V16S-UF,cAACAC,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,7F,itru_primer-plate_4_7F,rme,8.7
+rmep_22,sample,buffer tl,agt-1123-tl,rme_dna_for_pcr_normalized,G,7,16SU,iTru_C_V16S-UF,atCGGTT,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,7G,itru_primer-plate_4_7G,rme,5.1
+rmep_23,sample,buffer tl,cvi-1123-tl,rme_dna_for_pcr_normalized,H,7,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,7H,itru_primer-plate_4_7H,rme,2.6
+rmep_25,sample,dess,rre-1123-ds,rme_dna_for_pcr_normalized,A,8,16SU,iTru_A_V16S-UF,GGTAC,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,8A,itru_primer-plate_4_8A,rme,3.5
+rmep_26,sample,dess,mch-1123-ds,rme_dna_for_pcr_normalized,B,8,16SU,iTru_B_V16S-UF,cAACAC,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,8B,itru_primer-plate_4_8B,rme,4
+rmep_27,sample,buffer tl,rre-1123-tl,rme_dna_for_pcr_normalized,C,8,16SU,iTru_C_V16S-UF,atCGGTT,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,8C,itru_primer-plate_4_8C,rme,13.6
+nec_01,control,no preservative,NA,rme_dna_for_pcr_normalized,D,8,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,8D,itru_primer-plate_4_8D,rme,3.8
+rmep_28,control,dess,nfc-1123-ds,rme_dna_for_pcr_normalized,E,8,16SU,iTru_A_V16S-UF,GGTAC,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,8E,itru_primer-plate_4_8E,rme,4.2
+rmep_29,sample,dess,okg-1123-ds,rme_dna_for_pcr_normalized,F,8,16SU,iTru_B_V16S-UF,cAACAC,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,8F,itru_primer-plate_4_8F,rme,5.6
+rmep_30,sample,dess,hpo-1123-ds,rme_dna_for_pcr_normalized,G,8,16SU,iTru_C_V16S-UF,atCGGTT,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,8G,itru_primer-plate_4_8G,rme,4.2
+rmep_31,sample,buffer tl,mch-1123-tl,rme_dna_for_pcr_normalized,H,8,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,8H,itru_primer-plate_4_8H,rme,3.6
+rmep_32,sample,dess,spo-1123-ds,rme_dna_for_pcr_normalized,A,9,16SU,iTru_A_V16S-UF,GGTAC,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,9A,itru_primer-plate_4_9A,rme,3.5
+rmep_33,sample,buffer tl,spo-1123-tl,rme_dna_for_pcr_normalized,B,9,16SU,iTru_B_V16S-UF,cAACAC,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,9B,itru_primer-plate_4_9B,rme,13.9
+rmep_34,sample,dess,sip-1123-ds,rme_dna_for_pcr_normalized,C,9,16SU,iTru_C_V16S-UF,atCGGTT,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,9C,itru_primer-plate_4_9C,rme,4.1
+rmep_36,sample,buffer tl,okg-1123-tl,rme_dna_for_pcr_normalized,D,9,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,9D,itru_primer-plate_4_9D,rme,3.9
+rmep_37,sample,buffer tl,cmu-1123-tl,rme_dna_for_pcr_normalized,E,9,16SU,iTru_A_V16S-UF,GGTAC,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,9E,itru_primer-plate_4_9E,rme,6.9
+rmep_38,sample,dess,agt-1123-ds,rme_dna_for_pcr_normalized,F,9,16SU,iTru_B_V16S-UF,cAACAC,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,9F,itru_primer-plate_4_9F,rme,3.1
+PCR-NTC3,control,no preservative,NA,rme_dna_for_pcr_normalized,G,9,16SU,iTru_C_V16S-UF,atCGGTT,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,9G,itru_primer-plate_4_9G,rme,4.2
+rmep_39,sample,buffer tl,cga-1123-tl,rme_dna_for_pcr_normalized,H,9,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,9H,itru_primer-plate_4_9H,rme,9.2
+nec_02,control,no preservative,NA,rme_dna_for_pcr_normalized,A,10,16SU,iTru_A_V16S-UF,GGTAC,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,10A,itru_primer-plate_4_10A,rme,4.3
+rmep_40,sample,dess,cmu-1123-ds,rme_dna_for_pcr_normalized,B,10,16SU,iTru_B_V16S-UF,cAACAC,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,10B,itru_primer-plate_4_10B,rme,4.5
+rmep_41,sample,dess,cvi-1123-ds,rme_dna_for_pcr_normalized,C,10,16SU,iTru_C_V16S-UF,atCGGTT,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,10C,itru_primer-plate_4_10C,rme,4.9
+rmep_42,control,buffer tl,nfc-1123-tl,rme_dna_for_pcr_normalized,D,10,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,10D,itru_primer-plate_4_10D,rme,4.5
+rmep_43,sample,buffer tl,hpo-1123-tl,rme_dna_for_pcr_normalized,E,10,16SU,iTru_A_V16S-UF,GGTAC,iTru_4_V16S-UR,ttcTCAGC,itru_primer-plate_4,10E,itru_primer-plate_4_10E,rme,5.2
+rmep_44,sample,buffer tl,jre-1123-tl,rme_dna_for_pcr_normalized,F,10,16SU,iTru_B_V16S-UF,cAACAC,iTru_1_V16S-UR,AGGAA,itru_primer-plate_4,10F,itru_primer-plate_4_10F,rme,24
+rmep_45,sample,dess,cga-1123-ds,rme_dna_for_pcr_normalized,G,10,16SU,iTru_C_V16S-UF,atCGGTT,iTru_2_V16S-UR,gAGTGG,itru_primer-plate_4,10G,itru_primer-plate_4_10G,rme,4.6
+PCR-NTC4,control,no preservative,NA,rme_dna_for_pcr_normalized,H,10,16SU,iTru_D_V16S-UF,tcgGTCAA,iTru_3_V16S-UR,ccACGTC,itru_primer-plate_4,10H,itru_primer-plate_4_10H,rme,6

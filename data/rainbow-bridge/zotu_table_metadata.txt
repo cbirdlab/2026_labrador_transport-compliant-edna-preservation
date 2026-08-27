@@ -1,0 +1,7 @@
+zotu: A unique identifier for each Zero-radius Operational Taxonomic Unit (ZOTU), representing a unique sequence variant.
+taxid: A numeric taxonomic identifier (from NCBI) that corresponds to the organism’s entry in a taxonomy database.
+unique_hits: Number of unique BLAST sequence hits.
+pident (mean, median, min, max) & qcov (mean, median, min, max): mean/median/min/max values of the BLAST hits passing filtering used to taxonomically classify the zOTU
+domain, kingdom, phylum, class, order, family, genus, species: Taxonomic classification of the zOTU.
+taxid_rank: The lowest level of taxonomic classification.
+nec_01, nec_02, pcr_ntc1, ..., rmep_43, rmep_44, rmep_45: Number of reads of each zOTU in the specified sample
